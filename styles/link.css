@@ -1,6 +1,8 @@
 .nav-links-wrapper {
+    width: 40%;
+
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .link a {
