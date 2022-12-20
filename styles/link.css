@@ -1,0 +1,15 @@
+.nav-links-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.link a {
+    
+    color: white;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: lightgreen;
+    text-shadow: 0px 0px 10px green;
+}
