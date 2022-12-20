@@ -1,5 +1,8 @@
+/* Common CSS */
+
 html, body {
     padding: 0px;
     margin: 0px;
     background-image: linear-gradient(to right, rgb(100, 100, 100), black);
-}
+  }
+  
