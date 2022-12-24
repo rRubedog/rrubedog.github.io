@@ -1,14 +1,18 @@
+/* grid css */
+
 .grid-column-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
+		grid-gap: 10px;
 }
 
 .middle-grid-column, .left-grid-column, .right-grid-column {
-    border: black solid 10px;
-    padding: 10px;
-    margin: 0px;
+    border: rgba(10, 10, 10, 0.3) solid 8px;
+		border-radius: 7px;
+		box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+		height: 100%;
 }
 
 .middle-grid-column {
-    order: 2;
+    grid-column: 2;
 }
