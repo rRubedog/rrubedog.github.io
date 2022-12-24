@@ -2,8 +2,8 @@
 
 .grid-column-wrapper {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-		grid-gap: 10px;
+    grid-template-columns: 1fr 2.3fr 1fr;
+	grid-gap: 10px;
 }
 
 .middle-grid-column, .left-grid-column, .right-grid-column {
