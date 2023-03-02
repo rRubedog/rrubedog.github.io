@@ -8,3 +8,8 @@ html, body {
   background-image: linear-gradient(to right, rgb(100, 100, 100), black);
 	min-height: 2000px;
 }
+
+.link img {
+  width: auto;
+  height: 200px
+}
