@@ -2,3 +2,8 @@
     width: auto;
     height: 200px;
 }
+
+.twitter-link > img {
+    width: auto;
+    max-height: 200px;
+}
