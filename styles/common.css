@@ -1,8 +1,10 @@
 /* Common CSS */
 
 html, body {
+  scroll-behavior: smooth;
+  font-family: 'Nunito', sans-serif;
   padding: 0px;
   margin: 0px;
   background-image: linear-gradient(to right, rgb(100, 100, 100), black);
-	min-height: 1000px;
+	min-height: 2000px;
 }
