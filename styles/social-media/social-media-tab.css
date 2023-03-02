@@ -10,3 +10,10 @@
 .soc-media-title {
     font-size: 250%;
 }
+
+.social-media-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,9 +1,9 @@
-.twitter-link {
+.social-media-links > .link {
     width: auto;
     height: 200px;
 }
 
-.twitter-link > img {
+.social-media-links > .link > img {
     width: auto;
     max-height: 210px;
 }
