@@ -10,9 +10,9 @@
 }
 
 .links {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
 }
 
 .link {
