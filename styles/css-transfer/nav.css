@@ -1,0 +1,30 @@
+.navigation-wrapper {
+    width: auto;
+    background-color: rgb(24, 24, 24);
+    height: 120px;
+    color: black;
+    box-shadow: whitesmoke 0px 10px 40px, inset grey 0px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 500%;
+    text-shadow: white 0px 0px 20px, whitesmoke 0px 0px 12px;
+}
+
+.links-wrapper {
+    position: absolute;
+    right: 40%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.links-wrapper > .link a {
+    text-decoration: none;
+    color: white;
+}

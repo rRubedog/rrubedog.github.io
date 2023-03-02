@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+    padding: 0px;
+    background-color: rgb(105, 105, 105);
+    font-family: 'Nunito', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
