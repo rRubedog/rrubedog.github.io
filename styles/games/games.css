@@ -1,0 +1,19 @@
+.games-wrapper {
+    margin-top: 50px;
+    width: 50%;
+    height: auto;
+    border: 8px rgba(20, 20, 20, 0.4) solid;
+    border-radius: 8px;
+    box-shadow: whitesmoke 10px 10px 30px;
+}
+
+.games-title {
+    font-size: 250%;
+}
+
+.game-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
