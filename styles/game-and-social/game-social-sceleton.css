@@ -1,19 +1,18 @@
-.social-media-wrapper {
+.games-wrapper, .social-media-wrapper {
     margin-top: 50px;
-    padding: 20px;
+    padding: 10px;
     width: fit-content;
     height: auto;
     border: 8px rgba(20, 20, 20, 0.4) solid;
     border-radius: 8px;
     box-shadow: whitesmoke 10px 10px 30px;
-    
 }
 
-.soc-media-title {
+.games-title, .soc-media-title {
     font-size: 250%;
 }
 
-.social-media-links {
+.game-links, .social-media-links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
