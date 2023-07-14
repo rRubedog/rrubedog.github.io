@@ -8,7 +8,7 @@
     max-height: 210px;
 } */
 
-.link > a img{
+.link > a > img{
     width: auto;
     height: 88px;
 } 
