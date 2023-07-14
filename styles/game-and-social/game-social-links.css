@@ -1,4 +1,4 @@
-.game-links > .link, .social-media-links > .link{
+/* .game-links > .link, .social-media-links > .link{
     width: auto;
     height: 200px;
 }
@@ -6,4 +6,9 @@
 .game-links > .link > img, .social-media-links > .link > img{
     width: auto;
     max-height: 210px;
-}
+} */
+
+.link > img{
+    width: auto;
+    height: 88px;
+} 
