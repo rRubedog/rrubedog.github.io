@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Display Webcam Stream</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Giga&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+ 
+<style>
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #333;
+        padding: 10px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        padding: 8px 16px;
+        transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+        background-color: #555;
+        border-radius: 4px;
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        max-width: 100vw;
+    }
+
+    .go{
+        position: fixed;
+        width: auto;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    #container {
+        margin: 0px auto;
+        width: 500px;
+        height: 375px;
+        border: 10px #333 solid;
+    }
+
+    #videoElement {
+        width: 500px;
+        height: 375px;
+        background-color: #666;
+    }
+
+    h1{
+        font-size: 150%;
+    }
+
+</style>
+</head>
+ 
+<body>
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+    <div class="go"></div>
+    <h1>
+        Go ahead, tell me about yourself.  <br> 
+        Yeah you.  <br>
+        Go for it.
+    </h1>
+    <div id="container">
+        <video autoplay="true" id="videoElement"></video>
+    </div>
+    <script>
+        var video = document.querySelector("#videoElement");
+        if (navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function (stream) {
+                video.srcObject = stream;
+            })
+            .catch(function (err0r) {
+                console.log("Something went wrong!");
+            });
+        }
+    </script>
+</body>
+</html>
