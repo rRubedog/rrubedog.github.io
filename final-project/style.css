@@ -38,6 +38,12 @@ header {
     color: #fff;
     padding: 10px 20px;
     text-align: center;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #444;
+    padding: 10px 0;
 }
 
 header h1 {
@@ -45,13 +51,7 @@ header h1 {
 }
 
 /* Navigation Bar */
-nav {
-    display: flex;
-    justify-content: center;
-    background: #444;
-    padding: 10px 0;
-}
-nav a{
+header a{
     color: white;
 }
 a {
