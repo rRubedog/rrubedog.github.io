@@ -95,3 +95,39 @@ header .title {
     font-weight: bold;
     color: #fff;
 }
+
+#articles{
+    max-width: 800px;
+}
+
+article {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+article h3 {
+    margin-top: 0;
+    color: #444;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+article a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
