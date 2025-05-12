@@ -5,10 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hobbies</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        header .links {
+            display: flex;
+            gap: 15px;
+        }
+
+        header .link a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header .link a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        article {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 15px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        article:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        article h3 {
+            margin-top: 0;
+            color: #444;
+        }
+
+        article p {
+            margin: 10px 0;
+        }
+
+        article a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        article a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <img src="src/img/Logo/Timmothy Rain Chat Logo.png" alt="Logo">
+        <div class="title">
+            Hobbies
+        </div>
         <div class="links">
             <div class="link">
                 <a href="home.html">Home</a>
@@ -23,11 +113,10 @@
     </header>
 
     <main>
-        <h2>Hobbies</h2>
         <article>
             <h3>Drones</h3>
             <p>
-                I have a DJI Mini 4 Pro which I use off and on during the summer to get good photos like the ones <a href="">Here</a>.
+                I have a DJI Mini 4 Pro which I use off and on during the summer to get good photos like the ones <a href="drone-photos.html">Here</a>.
             </p>
         </article>
         <article>
@@ -46,7 +135,7 @@
         <article>
             <h3>Coding</h3>
             <p>
-                I have been coding in html, css, and javascript for about 5 years and I learned python 1 year ago although I don't use it anymore.  Coding has caputred my attention for a long time and I enjoy making new things like my <a href="">Cookie Clicker Remake</a> and my <a href="projects/physics-simulator.html">Physics simulator</a>.
+                I have been coding in html, css, and javascript for about 5 years and I learned python 1 year ago although I don't use it anymore.  Coding has caputred my attention for a long time and I enjoy making new things like my <a href="projects/cookie-clicker-remake.html">Cookie Clicker Remake</a>, my <a href="projects/physics-simulator.html">Physics simulator</a>, and my <a href="">Text Game</a>.
             </p>
         </article>
         <article>

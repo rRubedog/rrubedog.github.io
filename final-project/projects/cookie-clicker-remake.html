@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <style>
+        *{
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body{
+  background-color: grey;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+
+a:hover{
+  color: darkgreen;
+}
+
+
+/* Left side styles */
+.left-side{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+  min-height: 90vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.data{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.total{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.per-sec{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Right side styles */
+.right-side{
+  float: right;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  width: 25%;
+  min-height: 80vh;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+.building{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: white solid 1px;
+}
+
+.building-data {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.building-img{
+  width: 50px;
+  height: auto;
+  justify-self: center;
+}
+
+
+    </style>
+    </head>
+  <body>
+    <a id="goback">Hobbies</a>
+    <h2 style="text-align: center;">Cookie Clicker Remake (Beta)</h2>
+    <div class="left-side">
+      <div class="data">
+        <div class="total">
+          <div id="your-cookies">Your Cookies: </div>
+          <div class="count" id="total-cookies">0</div>
+          <div class="count-num" id="total-cookies-num"></div>
+        </div>
+
+        <div class="per-sec">
+          <div id="per-sec">Cookies Per Second: </div>  
+          <div class="count" id="per-sec-count">0</div>
+        </div>
+      </div>
+      <img class="big-cookie" style="width: 200px; height: 200px;" src="https://i.imgflip.com/58f14u.png">
+    </div>
+    
+    <div class="right-side">
+      <div id="buildings">
+        <div class="building">
+          New Clicker
+          <div class="building-data">
+            <div class="building-price" id="clicker-price">15</div>
+            <img class="building-img" id="clicker" src="https://www.freeiconspng.com/thumbs/cursor-png/big-free-hand-cursor-transparent-33.png">
+            <div class="building-count" id="clicker-count">0</div>
+          </div>
+        </div>
+        <div class="building">
+          MiniChef
+          <div class="building-data">
+            <div class="building-price" id="chef-price">100</div>
+            <img class="building-img" id="chef" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_TDM9SDXUEUlP-xqhx4EEa6q_h7NyEGjbPVdTdr6fyia5SuWRA80ddhXay2QlJPAAehg:https://cdnb.artstation.com/p/assets/images/images/013/095/925/original/quentin-nicolson-chef-idle.gif%3F1538028473&usqp=CAU">
+            <div class="building-count" id="chef-count">0</div>
+          </div>
+        </div>
+        <div class="building">
+          Farm
+          <div class="building-data">
+            <div class="building-price" id="farm-price">1100</div>
+            <img class="building-img" id="farm" src="https://vignette4.wikia.nocookie.net/cookieclicker/images/1/1a/FarmIconTransparent.png/revision/latest?cb=20151222041313">
+            <div class="building-count" id="farm-count">0</div>
+          </div>
+        </div>
+        
+<!--         <div class="building">
+          "Name"
+          <div class="building-data">
+            <div class="building-price">"Price"</div>
+            <img class="building-img" src="">
+            <div class="building-count">0</div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="cookie-clicker-remake-script.js"></script>
+  </body>
+</html>

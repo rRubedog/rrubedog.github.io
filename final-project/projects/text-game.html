@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cave Text Adventure</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a id="goback">Hobbies</a>
+    <div class="all-stats">
+      <div class="stats">
+        <div id="health">50 HP</div>
+        <div id="experience">0 XP</div>
+      </div>
+      <div class="item-container">
+        Items:
+        <div id="pickaxe">Pickaxe</div>
+        <div id="torch">Torch</div>
+        <div id="gun">Gun</div>
+
+      </div>
+    </div>
+    <div id="game-container">
+      <div id="story-text"></div>
+      <div id="choices-container">
+        <button class="choice-btn" id="choice1" onclick="selectChoice(1)"></button>
+        <button class="choice-btn" id="choice2" onclick="selectChoice(2)"></button>
+        <button class="choice-btn" id="choice3" onclick="selectChoice(3)"></button>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
